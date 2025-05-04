@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import pandas as pd
 
 # load dataset
-line_data = pd.read_csv('2020-monthly-avg-temps-f.csv')
+line_data = pd.read_csv('data.csv')
 line_data.head()
 
 ## line graph ##
