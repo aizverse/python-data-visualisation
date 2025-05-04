@@ -14,6 +14,8 @@ line_data.head()
 
 plt.plot(line_data.month_name,line_data.windhoek_avg_high)
 
+To add multiple lines to a chart, we simply call plt.plot() again with different y data. Matplotlib will keep adding lines to the same instance of plt until we clear the plot using the “clear the figure” command: plt.clf().
+
 ## show the plot
 
 plt.show()
