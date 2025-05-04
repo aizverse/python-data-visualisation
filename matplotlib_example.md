@@ -25,7 +25,6 @@ The plt.show() call is correct, but if you're running this in a non-interactive 
 In some environments (e.g., Jupyter notebooks), you might need %matplotlib inline to render plots.
 
 Fix: If in a Jupyter notebook, add:
-python
 
 %matplotlib inline
 
